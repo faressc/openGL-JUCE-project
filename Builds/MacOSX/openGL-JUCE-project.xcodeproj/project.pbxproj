@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14395B2C1981D98577943ED1 /* include_juce_data_structures.mm */ = {isa = PBXBuildFile; fileRef = 104757A8C85AD378C1827387; };
+		353A6358D3C4CC3654E9014B /* IOKit.framework */ = {isa = PBXBuildFile; fileRef = 154FAEA29881448A61363C9B; };
+		44AAA78F1EFBD3B59838053F /* include_juce_gui_extra.mm */ = {isa = PBXBuildFile; fileRef = C2B9861F21BBF33F45FE140D; };
+		49696CDBC37AE30C5D5F060D /* include_juce_opengl.mm */ = {isa = PBXBuildFile; fileRef = 25DD4E592166EF14F5AAD546; };
+		5E1EE7261DF02FD5E333AE6E /* QuartzCore.framework */ = {isa = PBXBuildFile; fileRef = 28DCB4E59FC4EE3E1A9045E6; };
+		616C95D70DA9260C5190DE42 /* Cocoa.framework */ = {isa = PBXBuildFile; fileRef = D6022CDE0BAD0B0AEE038939; };
+		6F06E3E6EF85E468DBEE80C7 /* include_juce_gui_basics.mm */ = {isa = PBXBuildFile; fileRef = 1E48EB7B8D5BCA4AF2509098; };
+		815DCF9CDC545150CBF9EBC4 /* OpenGLComponent.cpp */ = {isa = PBXBuildFile; fileRef = F3F357BA2AD18C9C704442D5; };
+		84775F9B1B4C978F7D71BBE1 /* App */ = {isa = PBXBuildFile; fileRef = 9CADDD860C6FE71286DC0EDF; };
+		9E79ECAE89971719093B52C2 /* RecentFilesMenuTemplate.nib */ = {isa = PBXBuildFile; fileRef = 1F54EF1D1EA14DE6A939B71B; };
+		A9ACECA5A14DCEFB96B3EADA /* BinaryData.cpp */ = {isa = PBXBuildFile; fileRef = F6A4091941576AC0AD2573F4; };
+		AA290B57B30B5F6AFBF31620 /* include_juce_core.mm */ = {isa = PBXBuildFile; fileRef = CD44C11556A5C3B8A87E6CBE; };
+		AC5A24799351D2C1C9466A59 /* WebKit.framework */ = {isa = PBXBuildFile; fileRef = C8BBD2B18ED58095BB5B381B; };
+		B4683076C4073658F9FB814C /* Main.cpp */ = {isa = PBXBuildFile; fileRef = 57BBFC7893DB12DE529CE505; };
+		C0D28AEC2E96D975E1B4B028 /* Foundation.framework */ = {isa = PBXBuildFile; fileRef = 4C88835FD6694814399F6479; };
+		D677DAEF29D12B0396FF7A89 /* OpenGL.framework */ = {isa = PBXBuildFile; fileRef = 5D15E40E9A71A6237335469D; };
+		E1AF7187AD5E2B97159B0581 /* include_juce_graphics.mm */ = {isa = PBXBuildFile; fileRef = 9583B5A21E047E4A734D07AA; };
+		E9809E0E4358866B40B8EAE2 /* include_juce_events.mm */ = {isa = PBXBuildFile; fileRef = 3E01D76E3427209CE8205459; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05D76F884C14703128B1F67A /* Info-App.plist */ /* Info-App.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-App.plist"; path = "Info-App.plist"; sourceTree = SOURCE_ROOT; };
+		104757A8C85AD378C1827387 /* include_juce_data_structures.mm */ /* include_juce_data_structures.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_data_structures.mm; path = ../../JuceLibraryCode/include_juce_data_structures.mm; sourceTree = SOURCE_ROOT; };
+		154FAEA29881448A61363C9B /* IOKit.framework */ /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		1C6E881ADA1B545DD5B73FCE /* blob-3.glsl */ /* blob-3.glsl */ = {isa = PBXFileReference; lastKnownFileType = file.glsl; name = "blob-3.glsl"; path = "../../Resources/OpenGLShaderPrograms/blob-3.glsl"; sourceTree = SOURCE_ROOT; };
+		1E48EB7B8D5BCA4AF2509098 /* include_juce_gui_basics.mm */ /* include_juce_gui_basics.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_gui_basics.mm; path = ../../JuceLibraryCode/include_juce_gui_basics.mm; sourceTree = SOURCE_ROOT; };
+		1F54EF1D1EA14DE6A939B71B /* RecentFilesMenuTemplate.nib */ /* RecentFilesMenuTemplate.nib */ = {isa = PBXFileReference; lastKnownFileType = file.nib; name = RecentFilesMenuTemplate.nib; path = RecentFilesMenuTemplate.nib; sourceTree = SOURCE_ROOT; };
+		25DD4E592166EF14F5AAD546 /* include_juce_opengl.mm */ /* include_juce_opengl.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_opengl.mm; path = ../../JuceLibraryCode/include_juce_opengl.mm; sourceTree = SOURCE_ROOT; };
+		2649ABB3A9AC7FFB2EEF5ECE /* BasicFragment.glsl */ /* BasicFragment.glsl */ = {isa = PBXFileReference; lastKnownFileType = file.glsl; name = BasicFragment.glsl; path = ../../Resources/OpenGLShaderPrograms/BasicFragment.glsl; sourceTree = SOURCE_ROOT; };
+		28DCB4E59FC4EE3E1A9045E6 /* QuartzCore.framework */ /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3E01D76E3427209CE8205459 /* include_juce_events.mm */ /* include_juce_events.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_events.mm; path = ../../JuceLibraryCode/include_juce_events.mm; sourceTree = SOURCE_ROOT; };
+		3E297CE60C96A908593793FA /* juce_gui_basics */ /* juce_gui_basics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_gui_basics; path = /Users/behring/Desktop/juce_projects/JUCE/modules/juce_gui_basics; sourceTree = "<absolute>"; };
+		4C88835FD6694814399F6479 /* Foundation.framework */ /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		502B01C6EAD5E00A9DD800C8 /* juce_opengl */ /* juce_opengl */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_opengl; path = /Users/behring/Desktop/juce_projects/JUCE/modules/juce_opengl; sourceTree = "<absolute>"; };
+		57BBFC7893DB12DE529CE505 /* Main.cpp */ /* Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Main.cpp; path = ../../Source/Main.cpp; sourceTree = SOURCE_ROOT; };
+		5D15E40E9A71A6237335469D /* OpenGL.framework */ /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		5E33140A8B943A0A2A0C5CA3 /* BasicVertex-2.glsl */ /* BasicVertex-2.glsl */ = {isa = PBXFileReference; lastKnownFileType = file.glsl; name = "BasicVertex-2.glsl"; path = "../../Resources/OpenGLShaderPrograms/BasicVertex-2.glsl"; sourceTree = SOURCE_ROOT; };
+		69790E29E73E13814FF8C2F7 /* OpenGLComponent.hpp */ /* OpenGLComponent.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OpenGLComponent.hpp; path = ../../Source/OpenGLComponent.hpp; sourceTree = SOURCE_ROOT; };
+		7E6121170C2F1B436859A85E /* juce_data_structures */ /* juce_data_structures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_data_structures; path = /Users/behring/Desktop/juce_projects/JUCE/modules/juce_data_structures; sourceTree = "<absolute>"; };
+		81F5E12DE7A3DAF80FFE5E38 /* ShapeVertices.hpp */ /* ShapeVertices.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ShapeVertices.hpp; path = ../../Source/ShapeVertices.hpp; sourceTree = SOURCE_ROOT; };
+		8F52F291B5D6BB974A4609E4 /* BinaryData.h */ /* BinaryData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BinaryData.h; path = ../../JuceLibraryCode/BinaryData.h; sourceTree = SOURCE_ROOT; };
+		93CBDCCC2D58FCA8F0B3F61F /* juce_core */ /* juce_core */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_core; path = /Users/behring/Desktop/juce_projects/JUCE/modules/juce_core; sourceTree = "<absolute>"; };
+		9583B5A21E047E4A734D07AA /* include_juce_graphics.mm */ /* include_juce_graphics.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_graphics.mm; path = ../../JuceLibraryCode/include_juce_graphics.mm; sourceTree = SOURCE_ROOT; };
+		9CADDD860C6FE71286DC0EDF /* App */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLAppTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAECEA0CA258433C229B2456 /* BasicVertex.glsl */ /* BasicVertex.glsl */ = {isa = PBXFileReference; lastKnownFileType = file.glsl; name = BasicVertex.glsl; path = ../../Resources/OpenGLShaderPrograms/BasicVertex.glsl; sourceTree = SOURCE_ROOT; };
+		ACFEC70C4810BF03ECD2189A /* AppConfig.h */ /* AppConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppConfig.h; path = ../../JuceLibraryCode/AppConfig.h; sourceTree = SOURCE_ROOT; };
+		AE37CED5D8B4F0D7D6300FE8 /* teapot.obj */ /* teapot.obj */ = {isa = PBXFileReference; lastKnownFileType = file.obj; name = teapot.obj; path = ../../Resources/teapot.obj; sourceTree = SOURCE_ROOT; };
+		AF5519FDCCFEFFCE35915203 /* juce_graphics */ /* juce_graphics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_graphics; path = /Users/behring/Desktop/juce_projects/JUCE/modules/juce_graphics; sourceTree = "<absolute>"; };
+		B414C7596DE8B3DA7450E43A /* circle-shader.glsl */ /* circle-shader.glsl */ = {isa = PBXFileReference; lastKnownFileType = file.glsl; name = "circle-shader.glsl"; path = "../../Resources/OpenGLShaderPrograms/circle-shader.glsl"; sourceTree = SOURCE_ROOT; };
+		B8EFC055F88F421439627362 /* MainContentComponent.hpp */ /* MainContentComponent.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainContentComponent.hpp; path = ../../Source/MainContentComponent.hpp; sourceTree = SOURCE_ROOT; };
+		C2B11B71A36D2D00DAAF8F65 /* juce_gui_extra */ /* juce_gui_extra */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_gui_extra; path = /Users/behring/Desktop/juce_projects/JUCE/modules/juce_gui_extra; sourceTree = "<absolute>"; };
+		C2B9861F21BBF33F45FE140D /* include_juce_gui_extra.mm */ /* include_juce_gui_extra.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_gui_extra.mm; path = ../../JuceLibraryCode/include_juce_gui_extra.mm; sourceTree = SOURCE_ROOT; };
+		C68025F3FD71BE8F732783C8 /* OpenGLUtil.hpp */ /* OpenGLUtil.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OpenGLUtil.hpp; path = ../../Source/OpenGLUtil/OpenGLUtil.hpp; sourceTree = SOURCE_ROOT; };
+		C8BBD2B18ED58095BB5B381B /* WebKit.framework */ /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		CD44C11556A5C3B8A87E6CBE /* include_juce_core.mm */ /* include_juce_core.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_core.mm; path = ../../JuceLibraryCode/include_juce_core.mm; sourceTree = SOURCE_ROOT; };
+		CD8ABEC4B6DA278417D16BBA /* juce_events */ /* juce_events */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_events; path = /Users/behring/Desktop/juce_projects/JUCE/modules/juce_events; sourceTree = "<absolute>"; };
+		D6022CDE0BAD0B0AEE038939 /* Cocoa.framework */ /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E0C3C84D47F9E505BDA0F36D /* JuceHeader.h */ /* JuceHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JuceHeader.h; path = ../../JuceLibraryCode/JuceHeader.h; sourceTree = SOURCE_ROOT; };
+		F3F357BA2AD18C9C704442D5 /* OpenGLComponent.cpp */ /* OpenGLComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = OpenGLComponent.cpp; path = ../../Source/OpenGLComponent.cpp; sourceTree = SOURCE_ROOT; };
+		F6A4091941576AC0AD2573F4 /* BinaryData.cpp */ /* BinaryData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BinaryData.cpp; path = ../../JuceLibraryCode/BinaryData.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8DFEB6B24BDC4E0633F9727 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616C95D70DA9260C5190DE42,
+				C0D28AEC2E96D975E1B4B028,
+				353A6358D3C4CC3654E9014B,
+				D677DAEF29D12B0396FF7A89,
+				5E1EE7261DF02FD5E333AE6E,
+				AC5A24799351D2C1C9466A59,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E88D170FE9B31A3DE02F54A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				46C7479C1E85E93C561B09AA,
+				AE37CED5D8B4F0D7D6300FE8,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		324A6B659388FAF03A640A26 /* openGL-JUCE-project */ = {
+			isa = PBXGroup;
+			children = (
+				4878489935978FC7F905FCCD,
+				0E88D170FE9B31A3DE02F54A,
+			);
+			name = "openGL-JUCE-project";
+			sourceTree = "<group>";
+		};
+		34112B9F7BFA40E311FB2307 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				05D76F884C14703128B1F67A,
+				1F54EF1D1EA14DE6A939B71B,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3FA33FDF8C33C646B89FFFC2 /* JUCE Modules */ = {
+			isa = PBXGroup;
+			children = (
+				93CBDCCC2D58FCA8F0B3F61F,
+				7E6121170C2F1B436859A85E,
+				CD8ABEC4B6DA278417D16BBA,
+				AF5519FDCCFEFFCE35915203,
+				3E297CE60C96A908593793FA,
+				C2B11B71A36D2D00DAAF8F65,
+				502B01C6EAD5E00A9DD800C8,
+			);
+			name = "JUCE Modules";
+			sourceTree = "<group>";
+		};
+		46C7479C1E85E93C561B09AA /* OpenGLShaderPrograms */ = {
+			isa = PBXGroup;
+			children = (
+				1C6E881ADA1B545DD5B73FCE,
+				5E33140A8B943A0A2A0C5CA3,
+				2649ABB3A9AC7FFB2EEF5ECE,
+				AAECEA0CA258433C229B2456,
+				B414C7596DE8B3DA7450E43A,
+			);
+			name = OpenGLShaderPrograms;
+			sourceTree = "<group>";
+		};
+		4878489935978FC7F905FCCD /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DF5242D19E8A55971307A0AD,
+				57BBFC7893DB12DE529CE505,
+				B8EFC055F88F421439627362,
+				F3F357BA2AD18C9C704442D5,
+				69790E29E73E13814FF8C2F7,
+				81F5E12DE7A3DAF80FFE5E38,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		6DE96A0EA091A87C2CEBA08C /* JUCE Library Code */ = {
+			isa = PBXGroup;
+			children = (
+				ACFEC70C4810BF03ECD2189A,
+				F6A4091941576AC0AD2573F4,
+				8F52F291B5D6BB974A4609E4,
+				CD44C11556A5C3B8A87E6CBE,
+				104757A8C85AD378C1827387,
+				3E01D76E3427209CE8205459,
+				9583B5A21E047E4A734D07AA,
+				1E48EB7B8D5BCA4AF2509098,
+				C2B9861F21BBF33F45FE140D,
+				25DD4E592166EF14F5AAD546,
+				E0C3C84D47F9E505BDA0F36D,
+			);
+			name = "JUCE Library Code";
+			sourceTree = "<group>";
+		};
+		71AE07AD9C3410AAB38909D1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				324A6B659388FAF03A640A26,
+				3FA33FDF8C33C646B89FFFC2,
+				6DE96A0EA091A87C2CEBA08C,
+				34112B9F7BFA40E311FB2307,
+				7BB0CAB4F53DE0C5B3CCA518,
+				D087A619F3B94D501E6E4E89,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		7BB0CAB4F53DE0C5B3CCA518 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6022CDE0BAD0B0AEE038939,
+				4C88835FD6694814399F6479,
+				154FAEA29881448A61363C9B,
+				5D15E40E9A71A6237335469D,
+				28DCB4E59FC4EE3E1A9045E6,
+				C8BBD2B18ED58095BB5B381B,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D087A619F3B94D501E6E4E89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CADDD860C6FE71286DC0EDF,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF5242D19E8A55971307A0AD /* OpenGLUtil */ = {
+			isa = PBXGroup;
+			children = (
+				C68025F3FD71BE8F732783C8,
+			);
+			name = OpenGLUtil;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDF2EEE8C90A1DF901C9D133 /* openGL-JUCE-project - App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C81A11270ABA873BEFE21BCA;
+			buildPhases = (
+				A66762FA2BF3FC5F9EB85CB4,
+				7F043C1B3D755C7AE34D2F94,
+				F8DFEB6B24BDC4E0633F9727,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "openGL-JUCE-project - App";
+			productName = "openGL-JUCE-project";
+			productReference = 9CADDD860C6FE71286DC0EDF;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		142E74BC8FC94ED0C63DF84B = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1340;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					FDF2EEE8C90A1DF901C9D133 = {
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.HardenedRuntime = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D26FB822C5703C33F4F8939F;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71AE07AD9C3410AAB38909D1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDF2EEE8C90A1DF901C9D133,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A66762FA2BF3FC5F9EB85CB4 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E79ECAE89971719093B52C2,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F043C1B3D755C7AE34D2F94 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4683076C4073658F9FB814C,
+				815DCF9CDC545150CBF9EBC4,
+				A9ACECA5A14DCEFB96B3EADA,
+				AA290B57B30B5F6AFBF31620,
+				14395B2C1981D98577943ED1,
+				E9809E0E4358866B40B8EAE2,
+				E1AF7187AD5E2B97159B0581,
+				6F06E3E6EF85E468DBEE80C7,
+				44AAA78F1EFBD3B59838053F,
+				49696CDBC37AE30C5D5F060D,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0F17814A158A1433981310D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "OpenGLAppTutorial";
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wreorder";
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		1785659ADFDD237F5C68B4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				DEAD_CODE_STRIPPING = YES;
+				EXCLUDED_ARCHS = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_NDEBUG=1",
+					"NDEBUG=1",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=0",
+					"JucePlugin_Build_AU=0",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=0",
+					"JucePlugin_Build_Unity=0",
+					"JucePlugin_Build_LV2=0",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../JuceLibraryCode",
+					"/Users/behring/Desktop/juce_projects/JUCE/modules",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info-App.plist;
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../JuceLibraryCode /Users/behring/Desktop/juce_projects/JUCE/modules";
+				OTHER_LDFLAGS = "-weak_framework Metal -weak_framework MetalKit";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.openGLJUCEproject;
+				PRODUCT_NAME = "OpenGLAppTutorial";
+				USE_HEADERMAP = NO;
+				VALIDATE_WORKSPACE_SKIPPED_SDK_FRAMEWORKS = OpenGL;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
+			};
+			name = Release;
+		};
+		A0A5F1C672894306AA0ED37B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_ARCHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+					"DEBUG=1",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=0",
+					"JucePlugin_Build_AU=0",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=0",
+					"JucePlugin_Build_Unity=0",
+					"JucePlugin_Build_LV2=0",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../JuceLibraryCode",
+					"/Users/behring/Desktop/juce_projects/JUCE/modules",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info-App.plist;
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../JuceLibraryCode /Users/behring/Desktop/juce_projects/JUCE/modules";
+				OTHER_LDFLAGS = "-weak_framework Metal -weak_framework MetalKit";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.openGLJUCEproject;
+				PRODUCT_NAME = "OpenGLAppTutorial";
+				USE_HEADERMAP = NO;
+				VALIDATE_WORKSPACE_SKIPPED_SDK_FRAMEWORKS = OpenGL;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
+			};
+			name = Debug;
+		};
+		FBF1D520E05CD50F5FD4E741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PRODUCT_NAME = "OpenGLAppTutorial";
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wreorder";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C81A11270ABA873BEFE21BCA = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0A5F1C672894306AA0ED37B,
+				1785659ADFDD237F5C68B4FD,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D26FB822C5703C33F4F8939F = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F17814A158A1433981310D3,
+				FBF1D520E05CD50F5FD4E741,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 142E74BC8FC94ED0C63DF84B /* Project object */;
+}
